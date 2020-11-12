@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="Styles/stylesCarrinho.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5dda139b8d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div style="padding: 15px; background-color: #4D4D4D;" >
+        <div class="container" >
+            <nav class="navbar navbar-expand-lg navbar-dark " style="margin-top: -15px; background-color:  #4D4D4D;">
+                <a class="navbar-brand logo" href="Index.html"><h1 style="color: black; letter-spacing: 7px; text-align: center; padding: 15px 0 0 5px; ">LOGO</h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                        <form class="form-inline">
+                            <input class="pesq" type="text" placeholder="Pesquisar" aria-label="Search">
+                            <button  style="background-color: transparent; border: none; margin-left: -40px; padding-top: 60px; font-size: 20px; color: black; outline: none;" type="submit"><i class="fas fa-search"></i></button>
+                          </form>
+    
+                      <div class="icons"></div>
+                        <a class="nav-item  text"  >Nossas Lojas</a>
+                        <a class="nav-item  text"  href="#">Fale Conosco</a>
+                        <a class="nav-item  text"  href="#">Quem Somos</a>
+                      </div>
+    
+                      <div class="iconC" >
+                        <a class = "icon iconP"href=""><i class="fas fa-heart"></i></a>
+                        <a class = "icon" href=""><i class="fas fa-user"></i></a>
+                        <a class = "icon" href="carrinho.html"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container" style="border: 1px solid; margin-top: 50px;">
+        <ul style="text-align: center; margin-top: 15px;">
+            <a href="estampas.html" class="menuLink"><li class="subMenu" style="margin-left: 0;">Vestuário</li></a>
+            <a href="estampas.html" class="menuLink"><li class="subMenu">Acessório</li></a>
+            <a href="" class="menuLink"><li class="subMenu">Section 3</li></a>
+            <a href="" class="menuLink"><li class="subMenu">Section 4</li></a>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        <div class="item" style="position: absolute;">
+            <button onclick="mudarCor()" style="border: none; position: absolute; outline: none;"><i id = "cor1" class="fas fa-heart coraCor" style="margin-left: 255px; font-size: 32px; position: absolute; color: rgb(29, 27, 27); "></i></button>
+            <div class="img"></div>   
+            <p style="text-align: center; margin-top: 35px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <a href="carrinho.html"><button class="btn btn-warning btn-lg" style="margin-left: 25px; margin-top: 25px; width: 250px;">Escolher Estampa</button></a>
+        </div>
+
+        <div class="item" style="position: absolute; margin-top: 525px;">
+            <button onclick="mudarCor1()" style="border: none; position: absolute; outline: none;"><i id = "cor2" class="fas fa-heart coraCor" style="margin-left: 255px; font-size: 32px; position: absolute; color: rgb(29, 27, 27); "></i></button>
+            <div class="img"></div>   
+            <p style="text-align: center; margin-top: 35px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <a href="carrinho.html"><button class="btn btn-warning btn-lg" style="margin-left: 25px; margin-top: 25px; width: 250px;">Escolher Estampa</button></a>
+        </div>
+
+        <div class = "carrCompra">
+            <div style="background-color: #d3d3d3; border-bottom: 1px solid;">
+                <h3 style="padding: 15px 0 10px 25px;">Meu Carrinho</h3>
+            </div>
+            <div class ="imgCompra" style="display: inline-block; border: 1px solid; height: 150px; position: absolute;">               
+            </div>
+            <h4 style="display: inline-block; margin-left: 175px; margin-top: 30px; font-size: 18px; margin-bottom: 5px;">Camiseta manga longa</h4>
+            <a href="" style="margin-left: 75px; font-size: 20px; color: red;"><i class="fas fa-trash"></i></a>
+            <p style="display: inline-block; margin-left: 175px; margin-bottom: 0; font-size: 14px;">TAMANHO: XG</p>
+            <p style="margin-left: 175px; font-size: 14px;">COR: Preto</p>
+
+            <ul class="infs">
+                <li class="fPrec">Qtd</li>
+                <li class="prec">Valor Un.</li>
+                <li class="prec">Valor Total</li>
+            </ul>
+            <hr style="border: 1px solid black; outline: none; width: 315px; margin-left: 160px; ">
+            <ul class="infs" style="margin-top: -10px;">
+                <button onclick="diminuir()" style="margin-left: -15px; border-style: none; background-color: rgb(94, 89, 89); padding: 2px 5px 1px 7px; margin-right: -4px; font-size: 13px; line-height: normal; color: white;">-</button>
+                <input type="number" min="0" value="1" name="" id="qtd" style="width: 35px; height: 20px; border: 1px solid; outline: none; text-align: center;">
+                <button onclick="aumentar()" style="border-style: none; background-color: rgb(94, 89, 89); padding: 2px 5px 1px; margin-left: -5px; font-size: 13px; line-height: normal; color: white;">+</button>
+                <li id="prec" class="prec1">R$: 60,00</li>
+                <li id="precoTotal" class="prec2">R$: 60,00</li>
+            </ul>
+            <hr style="border: 1px solid rgb(129, 127, 127); width: 95%; margin-left: 13px; margin-top: 35px;"> 
+
+            <div style="margin-top: 250px">
+                <div>
+                    <hr style="border: 1px solid rgb(129, 127, 127); width: 95%; margin-left: 13px; margin-top: 35px; margin-bottom: 5px;"> 
+                    <p style="display: inline-block; margin-left: 300px; font-weight: 500;">Desconto: R$</p>
+                    <p id="desc" style="display: inline-block; font-weight: 500;">20</p>
+                    <p style="display: inline-block; margin-left: -4px; font-weight: 500;">,00</p>
+                </div>
+                <div>
+                    <hr style="border: 1px solid rgb(129, 127, 127); width: 95%; margin-left: 13px; margin-top: 5px; margin-bottom: 5px;"> 
+                    <p style="display: inline-block; margin-left: 300px; font-weight: 500;">Subtotal: R$</p>
+                    <p id="subT" style="display: inline-block; font-weight: 500;">40</p>
+                    <p style="display: inline-block; margin-left: -4px; font-weight: 500;">,00</p>
+                </div>
+                <div>
+                    <hr style="border: 1px solid rgb(129, 127, 127); width: 95%; margin-left: 13px; margin-top: 5px; margin-bottom: 5px;"> 
+                    <label style="display: inline-block; margin-left: 100px; font-weight: 500; margin-right: 15px;" for="CEP">Calcular Frete: </label>
+                    <input style="width: 125px; text-align: center; border: 1px solid;" type="number" name="CEP" placeholder = "00000-000"id="">
+                    <button onClick="frete()"style="border-style: none; background-color: rgb(107, 107, 107); color: white; margin-left: -5px; height: 28px;">Calcular <i class="fas fa-truck"></i></button>
+                    <p style="display: inline-block; margin-left: 300px; font-weight: 500;">Frete: R$</p>
+                    <p id="frete" style="display: inline-block; font-weight: 500;">00</p>
+                    <p style="display: inline-block; margin-left: -4px; font-weight: 500;">,00</p>
+                </div>
+                <div>
+                    <hr style="border: 1px solid rgb(129, 127, 127); width: 95%; margin-left: 13px; margin-top: 5px; margin-bottom: 5px;"> 
+                    <p style="display: inline-block; margin-left: 290px; font-weight: 500;">Total a pagar: R$</p>
+                    <p id="total" style="display: inline-block; font-weight: 500;">40</p>
+                    <p style="display: inline-block; margin-left: -4px; font-weight: 500;">,00</p>      
+                </div>
+                <div>
+                    <a href="Identificação.html"><button class="btn btn-warning btn-lg botao" style="margin-left: 50%; transform: translateX(-50%); width: 80%; margin-top: 15px; font-weight: 600; color: white; background-color: #F66509;">Finalizar Compra</button></a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <footer style="background-color: #4D4D4D; height: 75px; margin-top: 150px;">
+
+    </footer>
+    
+    <script src="Scripts/Index.js"></script>
+</body>
+</html>

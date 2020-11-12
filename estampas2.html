@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="Styles/stylesEstampas.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5dda139b8d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div style="padding: 15px; background-color: #4D4D4D;" >
+        <div class="container" >
+            <nav class="navbar navbar-expand-lg navbar-dark " style="margin-top: -15px; background-color:  #4D4D4D;">
+                <a class="navbar-brand logo" href="Index.html"><h1 style="color: black; letter-spacing: 7px; text-align: center; padding: 15px 0 0 5px; ">LOGO</h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                        <form class="form-inline">
+                            <input class="pesq" type="text" placeholder="Pesquisar" aria-label="Search">
+                            <button  style="background-color: transparent; border: none; margin-left: -40px; padding-top: 60px; font-size: 20px; color: black; outline: none;" type="submit"><i class="fas fa-search"></i></button>
+                          </form>
+    
+                      <div class="icons"></div>
+                        <a class="nav-item  text"  >Nossas Lojas</a>
+                        <a class="nav-item  text"  href="#">Fale Conosco</a>
+                        <a class="nav-item  text"  href="#">Quem Somos</a>
+                      </div>
+    
+                      <div class="iconC" >
+                        <a class = "icon iconP"href=""><i class="fas fa-heart"></i></a>
+                        <a class = "icon" href=""><i class="fas fa-user"></i></a>
+                        <a class = "icon" href="carrinho.html"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container" style="border: 1px solid; margin-top: 50px;">
+        <ul style="text-align: center; margin-top: 15px;">
+            <a href="estampas.html" class="menuLink"><li class="subMenu" style="margin-left: 0;">Vestuário</li></a>
+            <a href="estampas.html" class="menuLink"><li class="subMenu">Acessório</li></a>
+            <a href="" class="menuLink"><li class="subMenu">Section 3</li></a>
+            <a href="" class="menuLink"><li class="subMenu">Section 4</li></a>
+        </ul>
+    </div>
+    <div class="container quer">
+        <div class="item">
+            <button onclick="mudarCor()" style="border: none; position: absolute; outline: none;"><i id = "cor1" class="fas fa-heart coraCor" style="margin-left: 255px; font-size: 32px; position: absolute; color: rgb(29, 27, 27); "></i></button>
+            <div class="img"></div>   
+            <p style="text-align: center; margin-top: 35px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <a href="carrinho.html"><button class="btn btn-warning btn-lg" style="margin-left: 25px; margin-top: 25px; width: 250px;">Escolher Estampa</button></a>
+        </div>
+        <div class="item">
+            <button onclick="mudarCor1()" style="border: none; position: absolute; outline: none;"><i id = "cor2" class="fas fa-heart coraCor" style="margin-left: 255px; font-size: 32px; position: absolute; color: rgb(29, 27, 27); "></i></button>    
+            <div class="img"></div>   
+            <p style="text-align: center; margin-top: 35px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <a href="carrinho.html"><button class="btn btn-warning btn-lg" style="margin-left: 25px; margin-top: 25px; width: 250px;">Escolher Estampa</button></a>
+        </div>
+        <div class="item">   
+            <button onclick="mudarCor2()" style="border: none; position: absolute; outline: none;"><i id = "cor3" class="fas fa-heart coraCor" style="margin-left: 255px; font-size: 32px; position: absolute; color: rgb(29, 27, 27); "></i></button>
+            <div class="img"></div>   
+            <p style="text-align: center; margin-top: 35px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <a href="carrinho.html"><button class="btn btn-warning btn-lg" style="margin-left: 25px; margin-top: 25px; width: 250px;">Escolher Estampa</button></a>
+        </div>
+
+    </div>
+
+    <div class="container quer">
+
+        <div class="item">    
+            <button onclick="mudarCor3()" style="border: none; position: absolute; outline: none;"><i id = "cor4" class="fas fa-heart coraCor" style="margin-left: 255px; font-size: 32px; position: absolute; color: rgb(29, 27, 27); "></i></button>
+            <div class="img"></div>   
+            <p style="text-align: center; margin-top: 35px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <a href="carrinho.html"><button class="btn btn-warning btn-lg" style="margin-left: 25px; margin-top: 25px; width: 250px;">Escolher Estampa</button></a>
+        </div>
+        <div class="item">    
+            <button onclick="mudarCor4()" style="border: none; position: absolute; outline: none;"><i id = "cor5" class="fas fa-heart coraCor" style="margin-left: 255px; font-size: 32px; position: absolute; color: rgb(29, 27, 27); "></i></button>
+            <div class="img"></div>   
+            <p style="text-align: center; margin-top: 35px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <a href="carrinho.html"><button class="btn btn-warning btn-lg" style="margin-left: 25px; margin-top: 25px; width: 250px;">Escolher Estampa</button></a>
+        </div>
+        <div class="item">  
+            <button onclick="mudarCor5()" style="border: none; position: absolute; outline: none;"><i id = "cor6" class="fas fa-heart coraCor" style="margin-left: 255px; font-size: 32px; position: absolute; color: rgb(29, 27, 27); "></i></button>
+            <div class="img"></div>   
+            <p style="text-align: center; margin-top: 35px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <a href="carrinho.html"><button class="btn btn-warning btn-lg" style="margin-left: 25px; margin-top: 25px; width: 250px;">Escolher Estampa</button></a>
+        </div>
+
+    </div>
+
+    <div class="container" style="text-align: center; margin-top: 50px; "> 
+        <a style="padding: 15px; font-size: 16px;" href="estampas.html">1</a>
+        <a style = "font-size:20px;" href="estampas2.html">2</a>
+    </div>
+
+
+    <footer style="background-color: #4D4D4D; height: 75px; margin-top: 100px;">
+
+    </footer>
+
+    <script src="Scripts/Hearts.js"></script>
+</body>
+</html>
